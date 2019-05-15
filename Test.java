@@ -28,7 +28,7 @@ public class Test {
     private static int add(String userInput) {
         String input = userInput.trim();
         
-        if(input.length() < 1) return 0;                       //return zero if nothing fond
+        if(input.length() < 1) return 0;                       //return zero if nothing found
         
         String delimiter = ",";                                //primary delimiter assign
         
